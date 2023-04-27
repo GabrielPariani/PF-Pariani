@@ -9,10 +9,11 @@ html {
     font-size: 20px;
 }
 /* Configuro el body */
-.body {
-    min-height: 100%;
-   background-color: black; 
-   background-image: url(image/fondo.png);
+body {
+background-image: url(../image/fondo.png);
+background-repeat: no-repeat;
+background-attachment: fixed ;
+background-size: cover;
 }
 /* Fin de body */
 /* MOBILE */
