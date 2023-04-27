@@ -52,13 +52,7 @@ background-size: cover;
 }
 /* Fin Arreglo Header*/
 /* CAROUSEL */
-.carousel-item{
-    width: 50%;
-    height: 30rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;   
-}
+
 .grid-container{
     margin: 10%;
     display: grid;
