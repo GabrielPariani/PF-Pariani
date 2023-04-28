@@ -67,7 +67,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     filter: drop-shadow(8px 8px 4px #B2D6F9);
     border-top: 60%;
-
 }
 
 .grid-item {
@@ -123,7 +122,6 @@ img {
     width: 35%; 
 }
 
-
 /* Pagina Nosotros*/
 .grid-container-2 {
     background-color: white;
@@ -140,7 +138,9 @@ img {
     text-align: center;
     text-decoration: underline;
     margin: 10px;
-    font-family: cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    filter: drop-shadow(2px 2px 1px #B2D6F9);
+    border-top: 60%;
 }
 
 .parrafo-nosotros {
