@@ -8,66 +8,69 @@
 html {
     font-size: 20px;
 }
+
 /* Configuro el body */
 body {
-background-image: url(../image/fondo.png);
-background-repeat: no-repeat;
-background-attachment: fixed ;
-background-size: cover;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 /* Fin de body */
 /* MOBILE */
 @media screen and (max-width: 468px) {
     .body {
         background-color: #e1f8b6;
-    }   
+    }
+
     .nosotros {
         background-color: #e1f8b6;
-    } 
- 
+    }
+
 }
 
 /* TABLET */
 @media screen and (min-width: 469px) and (max-width: 968px) {
     .body {
         background-color: #B2D6F9;
-    }   
+    }
     .nosotros {
         background-color: #B2D6F9;
     }
-  
 }
 
 /* DESKTOP */
 @media screen and (min-width: 969px) {
     .body {
         background-color: black;
-    }  
-  
+    }
 }
 
 /* Pagina index*/
 /* Arreglo Header*/
 .header {
-    position: sticky;   
-    top: 0; 
+    position: sticky;
+    top: 0;
 }
+
 /* Fin Arreglo Header*/
 /* CAROUSEL */
-.carousel{
-    margin: 100px;    
+.carousel {
+    margin: 100px;
 }
-.grid-container{
+
+.grid-container {
     margin: 10%;
     display: grid;
     grid-template-rows: repeat(2, 200px);
     grid-template-columns: repeat(3, 1fr);
     filter: drop-shadow(8px 8px 4px #B2D6F9);
-    border-top: 60%; 
+    border-top: 60%;
 
 }
 
-.grid-item{
+.grid-item {
     border: 1px solid black;
 }
 
@@ -76,104 +79,127 @@ img {
     width: 100%;
     height: 100%;
 }
-.uno{
+
+.uno {
     grid-column: 1/1;
     grid-row: 1/3;
 }
-.dos{
+
+.dos {
     grid-column: 2/2;
     grid-row: 1/3;
 }
-.tres{
+
+.tres {
     grid-column: 3/3;
     grid-row: 1/3;
 }
-.recetas-caseras{
-    color: black; 
+
+.recetas-caseras {
+    color: black;
     text-decoration: underline;
     text-align: center;
     margin: 10%;
 }
+
 /* fin pagina index*/
 
 /* Footer */
 
-.center{
-    padding: 10px 0;
-    display: flex;  
+.center {
+    padding: 10px 0px;
+    display: flex;
     justify-content: center;
 }
-.redes{
-    width: 10%;
-    height: 10%;
-    display: flex;  
-    justify-content: space-between;
+
+.redes {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
     margin: 3%;
 }
+.tamaño{
+    width: 35%; 
+}
+
+
 /* Pagina Nosotros*/
-.grid-container-2{
+.grid-container-2 {
     background-color: white;
     margin: 10%;
     display: grid;
     grid-template-rows: repeat(2, 200px);
     grid-template-columns: repeat(2, 1fr);
     filter: drop-shadow(8px 8px 4px #B2D6F9);
-    border-top: 60%; 
+    border-top: 60%;
 }
-.nosotros{
+
+.nosotros {
     color: black;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
     margin: 10px;
     font-family: cursive;
 }
-.parrafo-nosotros{
+
+.parrafo-nosotros {
     text-align: center;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 5%;
 }
 
 
 
 /* Pagina Salado */
-.color-ul{
+.color-ul {
     color: black;
 }
-.imagen-1{
+
+.imagen-1 {
     border-radius: 50%;
     margin: 50%;
     height: 50%;
     float: left;
 }
-.h1, h3{
+
+.h1,
+h3 {
     text-decoration: underline;
-    font-family:cursive;
+    font-family: cursive;
 }
-.recetas-saladas{
+
+.recetas-saladas {
     text-align: center;
     text-decoration: underline;
     margin: 10%;
 }
 
-.hr{
+.hr {
     margin: 150px;
 }
+
 /* Pag. Contacto*/
-.margin{
+.margin {
     margin: 15%;
 }
-.button{
+
+.button {
     border: 2px #00A8A8;
 }
-.form-label{
+
+.form-label {
     color: #00A8A8;
 }
-.contacto{
-    color:#00A8A8;
+
+.contacto {
+    color: #00A8A8;
     text-align: center;
     font-family: cursive;
 }
-.resize{
+
+.resize {
     resize: none;
 }
+
 /* Pag. Parrilla */
