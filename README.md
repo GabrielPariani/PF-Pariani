@@ -1,6 +1,6 @@
 # ProyectoCoder
 <h1 align="center">Hola 👋, soy Gabriel Pariani</h1>
-<h3 align="center">Un apasionado desarrollador frontend de la India</h3>
+<h3 align="center">Un apasionado desarrollador frontend de Argentina</h3>
 
 - 📫 Cómo contactarme **parianigabriel@gmail.com* *
 
