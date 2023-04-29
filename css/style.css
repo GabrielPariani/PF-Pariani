@@ -206,12 +206,16 @@ h3 {
     color: #00A8A8;
 }
 
-.contacto {
-    color: #00A8A8;
+.bg-3{
+    background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
     text-align: center;
-    font-family: cursive;
-}
+  }
 
+.t-stroke-shadow-2{
+    color: #cea0fa;
+    text-shadow: -2px 2px #ffffff, -2px -2px #ffffff, 2px -2px #ffffff, 2px 2px #f3f3f2, 4px 4px #6ac7c2;
+    font-size: 30px;
+}
 .resize {
     resize: none;
 }
