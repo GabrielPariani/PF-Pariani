@@ -123,6 +123,10 @@ img {
 }
 
 /* Pagina Nosotros*/
+#nosotros{
+    background-color: black;
+ }
+
 .grid-container-2 {
     background-color: white;
     margin: 10%;
@@ -132,9 +136,17 @@ img {
     filter: drop-shadow(8px 8px 4px #B2D6F9);
     border-top: 60%;
 }
+.bg-2{
+    background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+    text-align: center;
+  }
 
+.t-stroke-shadow {
+    color: #e8858e;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+}
 .nosotros {
-    color: black;
+    color: #c5d6ec;
     text-align: center;
     text-decoration: underline;
     margin: 10px;
