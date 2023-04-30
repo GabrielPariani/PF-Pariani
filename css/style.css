@@ -39,6 +39,35 @@ body {
         height: 20%;
         flex-direction: column;
         align-items: center;
+    }
+    .p{
+        font-size: 50%;
+    }   
+}
+/* MOBILE */
+@media screen and (max-width: 472px) and (min-width: 469px){
+    .body {
+        background-color: #e1f8b6;
+    }
+    .nosotros {
+        background-color: #e1f8b6;
+    }
+    .grid-container {
+        margin: 0%;
+        display: grid;
+        grid-template-rows: repeat(1, 10px);
+        grid-template-columns: repeat(1, 0.5fr);
+        filter: drop-shadow(8px 8px 4px #B2D6F9);
+        border-top: 60%;
+    }
+    .grid-item {
+        width: 100%;
+        height: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p{
+        font-size: 40%;
     }   
 }
 
@@ -50,6 +79,9 @@ body {
 
     .nosotros {
         background-color: #B2D6F9;
+    }
+    .p{
+        font-size: 70%;
     }
 
     .grid-item {
@@ -66,6 +98,15 @@ body {
         background-color: black;
     }
 }
+/* DESKTOP */
+@media screen and (min-width: 729px) and (max-width:1440px){
+    .body {
+        background-color: black;
+    }
+    .p{
+        font-size: 95%;
+    }
+}
 
 /* Pagina index*/
 /* Arreglo Header*/
@@ -77,50 +118,28 @@ body {
 /* Fin Arreglo Header*/
 /* CAROUSEL */
 .carousel {
-    margin: 100px;
+    margin: 200px auto 200px;
+    width: 50%;
+    height: 50%;
 }
 /* Fin Carousel */
 
 .grid-container {
-    margin: 10%;
+    margin: 200px auto 200px;
     display: grid;
     grid-template-rows: repeat(1, 200px);
     grid-template-columns: repeat(3, 1fr);
     filter: drop-shadow(8px 8px 4px #B2D6F9);
     border-top: 60%;
+    width: 50%;
+    height: 50%;
 }
-
-.grid-item {
-    border: 1px solid black;
-}
-
 
 img {
     width: 100%;
     height: 100%;
 }
 
-.uno {
-    grid-column: 1/1;
-    grid-row: 1/3;
-}
-
-.dos {
-    grid-column: 2/2;
-    grid-row: 1/3;
-}
-
-.tres {
-    grid-column: 3/3;
-    grid-row: 1/3;
-}
-
-.recetas-caseras {
-    color: black;
-    text-decoration: underline;
-    text-align: center;
-    margin: 10%;
-}
 
 /* fin pagina index*/
 
@@ -192,10 +211,6 @@ img {
 }
 
 /* Pagina Salado */
-.color-ul {
-    color: black;
-}
-
 .imagen-1 {
     border-radius: 50%;
     margin: 50%;
@@ -221,7 +236,30 @@ h3 {
 
 /* Pag. Contacto*/
 .margin {
-    margin: 15%;
+    margin: 5%;
+    width: 200%;
+    height: 100%;
+    
+}
+.grid-item{
+    filter: drop-shadow(2px 2px 2px #B2D6F9);
+    border-top: 60%;
+    border-radius: 6px 6px 6px 6px;
+}
+.uno {
+    grid-column: 1/1;
+    grid-row: 1/3;
+
+}
+
+.dos {
+    grid-column: 2/2;
+    grid-row: 1/3;
+}
+
+.tres {
+    grid-column: 3/3;
+    grid-row: 1/3;
 }
 
 .button {
