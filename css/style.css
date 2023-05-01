@@ -18,6 +18,19 @@ body {
 }
 
 /* Fin de body */
+
+/* Efectos Imagen */
+img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+img:hover{
+    transform: scale(1.2);
+}
+/* Fin Efectos Imagen */
+
 /* MOBILE */
 @media screen and (max-width: 468px) {
     .body {
@@ -129,10 +142,6 @@ body {
     height: 50%;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-}
 /* fin pagina index*/
 
 /* Footer */
