@@ -109,13 +109,7 @@ body {
 }
 
 /* Pagina index*/
-/* Arreglo Header*/
-.header {
-    position: sticky;
-    top: 0;
-}
 
-/* Fin Arreglo Header*/
 /* CAROUSEL */
 .carousel {
     margin: 200px auto 200px;
@@ -139,21 +133,20 @@ img {
     width: 100%;
     height: 100%;
 }
-
-
 /* fin pagina index*/
 
 /* Footer */
 footer{
     color: white
 }
-
 .center {
     padding: 10px 0px;
     display: flex;
     justify-content: center;
 }
+/* Fin Footer */
 
+/* Redes */
 .redes {
     width: 30%;
     height: 30%;
@@ -161,10 +154,10 @@ footer{
     justify-content: space-around;
     margin: 3%;
 }
-
 .tamaño {
     width: 35%;
 }
+/* Fin Redes */
 
 /* Pagina Nosotros*/
 #nosotros {
@@ -217,11 +210,10 @@ footer{
 #salado{
     background-color: black;
 }
-.imagen-1 {
-    border-radius: 50%;
-    margin: 50%;
-    height: 50%;
-    float: left;
+
+.imagen1 {
+   width: 50%;
+   height: 50%;
 }
 .color-ul{
     background-color: #e1f8b6;
