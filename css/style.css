@@ -212,22 +212,23 @@ footer{
 }
 
 .imagen1 {
+    margin: 5%;
    width: 50%;
    height: 50%;
 }
 .color-ul{
-    background-color: #e1f8b6;
+    background-color:#B2D6F9;
     opacity: 00.7;
     border-radius: 8px 8px 8px 8px;
 }
 .color-p{
-    background-color: #e1f8b6;
+    background-color: #B2D6F9;
     opacity: 00.7;
     border-radius: 8px 8px 8px 8px;
 }
 .h1,
 h3 {
-    background-color: #e1f8b6;
+    background-color:#B2D6F9;
     opacity: 00.7;
     text-decoration: underline;
     font-family: cursive;
@@ -244,6 +245,21 @@ h3 {
     margin: 150px;
 }
 /* Fin Pagina Salado */
+/* Pagina dulce*/
+.titulo{
+    text-align: center;
+    background-color:#B2D6F9;
+    opacity: 00.7;
+    display: flex;
+    justify-content: space-around;
+}
+.imagen{
+   margin: 5%;
+   width: 400px;
+   height: 400px;
+ }
+ /* Fin Pagina dulce*/
+
 /* Pag. Contacto*/
 .margin {
     margin: 5%;
@@ -252,7 +268,7 @@ h3 {
     
 }
 .grid-item{
-    filter: drop-shadow(2px 2px 2px #B2D6F9);
+    filter: drop-shadow(1px 1px 1px #B2D6F9);
     border-top: 60%;
     border-radius: 6px 6px 6px 6px;
 }
