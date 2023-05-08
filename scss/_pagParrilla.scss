@@ -1,6 +1,7 @@
 /* Pag. Parrilla */
+@import "variable";
 #parrilla{
-    background-color: black;
+    background-color: $bg-general;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
