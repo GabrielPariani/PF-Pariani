@@ -1,0 +1,23 @@
+body {
+
+    /* Configuro el body */
+body {
+ background-image: url(../image/fondo.png);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+/* Efectos Imagen */
+img {
+ width: 100%;
+ height: 100%;
+ transition: 0.5s;
+ object-fit: cover;
+}
+img:hover{
+ transform: scale(1.2);
+}
+/* Fin Efectos Imagen */
+
+}

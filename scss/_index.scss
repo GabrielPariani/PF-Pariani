@@ -1,0 +1,22 @@
+/* Pagina index*/
+
+/* CAROUSEL */
+.carousel {
+    margin: 200px auto 200px;
+    width: 50%;
+    height: 50%;
+}
+/* Fin Carousel */
+
+.grid-container {
+    margin: 200px auto 200px;
+    display: grid;
+    grid-template-rows: repeat(1, 200px);
+    grid-template-columns: repeat(3, 1fr);
+    filter: drop-shadow(8px 8px 4px #B2D6F9);
+    border-top: 60%;
+    width: 50%;
+    height: 50%;
+}
+
+/* fin pagina index*/

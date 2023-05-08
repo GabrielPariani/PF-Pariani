@@ -1,318 +1,354 @@
-/* Reseteo */
-* {
-    margin: 0;
-    padding: 0;
+@charset "UTF-8";
+/* Sintaxis 
+scss
+sass
+*/
+header {
+  /* Reseteo */
+  /* Defino la unidad de medida general para todo mi proyecto*/
+}
+header * {
+  margin: 0;
+  padding: 0;
+}
+header html {
+  font-size: 20px;
 }
 
-/* Defino la unidad de medida general para todo mi proyecto*/
-html {
-    font-size: 20px;
-}
-
-/* Configuro el body */
 body {
+  /* Configuro el body */
+  /* Efectos Imagen */
+  /* Fin Efectos Imagen */
+}
+body body {
+  background-image: url(../image/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+body img:hover {
+  transform: scale(1.2);
+}
+
+/* MOBILE */
+@media screen and (max-width: 468px) {
+  .body {
+    background-color: #e1f8b6;
+  }
+  .nosotros {
+    background-color: #e1f8b6;
+  }
+  .grid-container {
+    margin: 0%;
+    display: grid;
+    grid-template-rows: repeat(1, 10px);
+    grid-template-columns: repeat(1, 0.5fr);
+    filter: drop-shadow(8px 8px 4px #B2D6F9);
+    border-top: 60%;
+  }
+  .grid-item {
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .p {
+    font-size: 50%;
+  }
+}
+/* MOBILE */
+@media screen and (max-width: 472px) and (min-width: 469px) {
+  .body {
+    background-color: #e1f8b6;
+  }
+  .nosotros {
+    background-color: #e1f8b6;
+  }
+  .grid-container {
+    margin: 0%;
+    display: grid;
+    grid-template-rows: repeat(1, 10px);
+    grid-template-columns: repeat(1, 0.5fr);
+    filter: drop-shadow(8px 8px 4px #B2D6F9);
+    border-top: 60%;
+  }
+  .grid-item {
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .p {
+    font-size: 40%;
+  }
+}
+/* TABLET */
+@media screen and (min-width: 469px) and (max-width: 968px) {
+  .body {
+    background-color: #B2D6F9;
+  }
+  .nosotros {
+    background-color: #B2D6F9;
+  }
+  .p {
+    font-size: 70%;
+  }
+  .grid-item {
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* DESKTOP */
+@media screen and (min-width: 969px) {
+  .body {
+    background-color: black;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-/* Fin de body */
-
-/* Efectos Imagen */
-img {
-    width: 100%;
-    height: 100%;
-    transition: 0.5s;
-    object-fit: cover;
-}
-img:hover{
-    transform: scale(1.2);
-}
-
-/* Fin Efectos Imagen */
-
-/* MOBILE */
-@media screen and (max-width: 468px) {
-    .body {
-        background-color: #e1f8b6;
-    }
-    .nosotros {
-        background-color: #e1f8b6;
-    }
-    .grid-container {
-        margin: 0%;
-        display: grid;
-        grid-template-rows: repeat(1, 10px);
-        grid-template-columns: repeat(1, 0.5fr);
-        filter: drop-shadow(8px 8px 4px #B2D6F9);
-        border-top: 60%;
-    }
-    .grid-item {
-        width: 100%;
-        height: 20%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .p{
-        font-size: 50%;
-    }   
-}
-/* MOBILE */
-@media screen and (max-width: 472px) and (min-width: 469px){
-    .body {
-        background-color: #e1f8b6;
-    }
-    .nosotros {
-        background-color: #e1f8b6;
-    }
-    .grid-container {
-        margin: 0%;
-        display: grid;
-        grid-template-rows: repeat(1, 10px);
-        grid-template-columns: repeat(1, 0.5fr);
-        filter: drop-shadow(8px 8px 4px #B2D6F9);
-        border-top: 60%;
-    }
-    .grid-item {
-        width: 100%;
-        height: 20%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .p{
-        font-size: 40%;
-    }   
-}
-
-/* TABLET */
-@media screen and (min-width: 469px) and (max-width: 968px) {
-    .body {
-        background-color: #B2D6F9;
-    }
-
-    .nosotros {
-        background-color: #B2D6F9;
-    }
-    .p{
-        font-size: 70%;
-    }
-
-    .grid-item {
-        width: 100%;
-        height: 50%;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-/* DESKTOP */
-@media screen and (min-width: 969px) {
-    .body {
-        background-color: black;
-    }
+  }
 }
 /* DESKTOP */
-@media screen and (min-width: 729px) and (max-width:1440px){
-    .body {
-        background-color: black;
-    }
-    .p{
-        font-size: 95%;
-    }
+@media screen and (min-width: 729px) and (max-width: 1440px) {
+  .body {
+    background-color: black;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .p {
+    font-size: 95%;
+  }
 }
-
 /* Pagina index*/
-
 /* CAROUSEL */
 .carousel {
-    margin: 200px auto 200px;
-    width: 50%;
-    height: 50%;
+  margin: 200px auto 200px;
+  width: 50%;
+  height: 50%;
 }
-/* Fin Carousel */
 
+/* Fin Carousel */
 .grid-container {
-    margin: 200px auto 200px;
-    display: grid;
-    grid-template-rows: repeat(1, 200px);
-    grid-template-columns: repeat(3, 1fr);
-    filter: drop-shadow(8px 8px 4px #B2D6F9);
-    border-top: 60%;
-    width: 50%;
-    height: 50%;
+  margin: 200px auto 200px;
+  display: grid;
+  grid-template-rows: repeat(1, 200px);
+  grid-template-columns: repeat(3, 1fr);
+  filter: drop-shadow(8px 8px 4px #B2D6F9);
+  border-top: 60%;
+  width: 50%;
+  height: 50%;
 }
 
 /* fin pagina index*/
-
 /* Footer */
-footer{
-    color: white
+footer {
+  color: white;
 }
-.center {
-    padding: 10px 0px;
-    display: flex;
-    justify-content: center;
-}
-/* Fin Footer */
 
+.center {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Fin Footer */
 /* Redes */
 .redes {
-    width: 30%;
-    height: 30%;
-    display: flex;
-    justify-content: space-around;
-    margin: 3%;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
 }
-.tamaño {
-    width: 35%;
-}
-/* Fin Redes */
 
+.tamaño {
+  width: 35%;
+}
+
+/* Fin Redes */
 /* Pagina Nosotros*/
 #nosotros {
-    background-color: black;
+  background-color: black;
+  background-image: url(../image/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .grid-container-2 {
-    background-color: white;
-    margin: 10% 10% 10% 10%;
-    display: grid;
-    grid-template-rows: repeat(2, 200px);
-    grid-template-columns: repeat(2, 1fr);
-    filter: drop-shadow(8px 8px 4px #B2D6F9);
-    border-top: 60%;
-    border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  margin: 10% 10% 10% 10%;
+  display: grid;
+  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: repeat(2, 1fr);
+  filter: drop-shadow(8px 8px 4px #B2D6F9);
+  border-top: 60%;
+  border-radius: 10px 10px 10px 10px;
 }
+
 .bg-2 {
-    background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
-    text-align: center;
+  background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+  text-align: center;
 }
+
 .t-stroke-shadow {
-    color: #e8858e;
-    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+  color: #e8858e;
+  text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
 }
+
 .parrafo-nosotros {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 5%;
+  font-size: auto;
+}
+
+@media screen and (max-width: 1310px) and (min-width: 620px) {
+  .p {
+    font-size: auto;
+  }
+  .parrafo-nosotros {
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin: 5%;
     font-size: auto;
+  }
 }
-
-@media screen and (max-width: 1310px) and (min-width:620px) {
-    .p {
-        font-size: auto;
-    }
-    .parrafo-nosotros {
-        text-align: center;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin: 5%;
-        font-size: auto;
-    }
-
-}
+/* Fin pag Nosotros*/
 /* Pagina Salado */
-#salado{
-    background-color: black;
+#salado {
+  background-color: black;
+  background-image: url(../image/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 .imagen1 {
-    margin: 5%;
-   width: 50%;
-   height: 50%;
+  margin: 5%;
+  width: 50%;
+  height: 50%;
 }
-.color-ul{
-    background-color:#B2D6F9;
-    opacity: 00.7;
-    border-radius: 8px 8px 8px 8px;
+
+.color-ul {
+  background-color: #B2D6F9;
+  opacity: 0.7;
+  border-radius: 8px 8px 8px 8px;
 }
-.color-p{
-    background-color: #B2D6F9;
-    opacity: 00.7;
-    border-radius: 8px 8px 8px 8px;
+
+.color-p {
+  background-color: #B2D6F9;
+  opacity: 0.7;
+  border-radius: 8px 8px 8px 8px;
 }
+
 .h1,
 h3 {
-    background-color:#B2D6F9;
-    opacity: 00.7;
-    text-decoration: underline;
-    font-family: cursive;
-    border-radius: 10px 10px 10px 10px;
+  background-color: #B2D6F9;
+  opacity: 0.7;
+  text-decoration: underline;
+  font-family: cursive;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .recetas-saladas {
-    text-align: center;
-    text-decoration: underline;
-    margin: 10%;
+  text-align: center;
+  text-decoration: underline;
+  margin: 10%;
 }
 
 .hr {
-    margin: 150px;
+  margin: 150px;
 }
+
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 /* Fin Pagina Salado */
 /* Pagina dulce*/
-.titulo{
-    text-align: center;
-    background-color:#B2D6F9;
-    opacity: 00.7;
-    display: flex;
-    justify-content: space-around;
+.titulo {
+  text-align: center;
+  background-color: #B2D6F9;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-around;
 }
-.imagen{
-   margin: 5%;
-   width: 400px;
-   height: 400px;
- }
- /* Fin Pagina dulce*/
 
+.imagen {
+  margin: 5%;
+  width: 400px;
+  height: 400px;
+}
+
+/* Fin Pagina dulce*/
 /* Pag. Contacto*/
 .margin {
-    margin: 5%;
-    width: 200%;
-    height: 100%;  
+  margin: 5%;
+  width: 200%;
+  height: 100%;
 }
-.grid-item{
-    filter: drop-shadow(1px 1px 1px #B2D6F9);
-    border-top: 60%;
-    border-radius: 6px 6px 6px 6px;
+
+.grid-item {
+  filter: drop-shadow(1px 1px 1px #B2D6F9);
+  border-top: 60%;
+  border-radius: 6px 6px 6px 6px;
 }
+
 .uno {
-    grid-column: 1/1;
-    grid-row: 1/3;
+  grid-column: 1/1;
+  grid-row: 1/3;
 }
 
 .dos {
-    grid-column: 2/2;
-    grid-row: 1/3;
+  grid-column: 2/2;
+  grid-row: 1/3;
 }
 
 .tres {
-    grid-column: 3/3;
-    grid-row: 1/3;
+  grid-column: 3/3;
+  grid-row: 1/3;
 }
 
 .form-label {
-    color: #00A8A8;
+  color: #00A8A8;
 }
 
 .bg-3 {
-    background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
-    text-align: center;
+  background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+  text-align: center;
 }
 
 .t-stroke-shadow-2 {
-    color: #cea0fa;
-    text-shadow: -2px 2px #ffffff, -2px -2px #ffffff, 2px -2px #ffffff, 2px 2px #f3f3f2, 4px 4px #6ac7c2;
-    font-size: 30px;
+  color: #cea0fa;
+  text-shadow: -2px 2px #ffffff, -2px -2px #ffffff, 2px -2px #ffffff, 2px 2px #f3f3f2, 4px 4px #6ac7c2;
+  font-size: 30px;
 }
 
 .resize {
-    resize: none;
+  resize: none;
 }
+
 /* Fin Pag. Contacto*/
 /* Pag. Parrilla */
-#parrilla{
-    background-color: black;
+#parrilla {
+  background-color: black;
+  background-image: url(../image/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
+/* Fin Pag. Parrilla */
+
+/*# sourceMappingURL=style.css.map */

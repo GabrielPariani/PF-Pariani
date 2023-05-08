@@ -1,0 +1,46 @@
+/* Pagina Salado */
+#salado{
+    background-color: black;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.imagen1 {
+    margin: 5%;
+   width: 50%;
+   height: 50%;
+}
+.color-ul{
+    background-color:#B2D6F9;
+    opacity: 00.7;
+    border-radius: 8px 8px 8px 8px;
+}
+.color-p{
+    background-color: #B2D6F9;
+    opacity: 00.7;
+    border-radius: 8px 8px 8px 8px;
+}
+.h1,
+h3 {
+    background-color:#B2D6F9;
+    opacity: 00.7;
+    text-decoration: underline;
+    font-family: cursive;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.recetas-saladas {
+    text-align: center;
+    text-decoration: underline;
+    margin: 10%;
+}
+
+.hr {
+    margin: 150px;
+}
+.underline {
+    text-decoration: underline;
+}
+
+/* Fin Pagina Salado */

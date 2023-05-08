@@ -18,6 +18,20 @@ body {
 }
 
 /* Fin de body */
+
+/* Efectos Imagen */
+img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+/* Fin Efectos Imagen */
+
 /* MOBILE */
 @media screen and (max-width: 468px) {
     .body {
@@ -129,10 +143,6 @@ body {
     height: 50%;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-}
 /* fin pagina index*/
 
 /* Footer */
@@ -178,12 +188,10 @@ footer{
     background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
     text-align: center;
 }
-
 .t-stroke-shadow {
     color: #e8858e;
     text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
 }
-
 .parrafo-nosotros {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -195,7 +203,6 @@ footer{
     .p {
         font-size: auto;
     }
-
     .parrafo-nosotros {
         text-align: center;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -204,12 +211,10 @@ footer{
     }
 
 }
-
 /* Pagina Salado */
 #salado{
     background-color: black;
 }
-
 .imagen1 {
     margin: 5%;
    width: 50%;
@@ -243,6 +248,9 @@ h3 {
 .hr {
     margin: 150px;
 }
+.underline {
+    text-decoration: underline;
+}
 /* Fin Pagina Salado */
 /* Pagina dulce*/
 .titulo{
@@ -263,8 +271,7 @@ h3 {
 .margin {
     margin: 5%;
     width: 200%;
-    height: 100%;
-    
+    height: 100%;  
 }
 .grid-item{
     filter: drop-shadow(1px 1px 1px #B2D6F9);
@@ -274,8 +281,6 @@ h3 {
 .uno {
     grid-column: 1/1;
     grid-row: 1/3;
-    
-
 }
 
 .dos {
@@ -287,7 +292,6 @@ h3 {
     grid-column: 3/3;
     grid-row: 1/3;
 }
-
 
 .form-label {
     color: #00A8A8;
