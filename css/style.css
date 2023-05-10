@@ -3,10 +3,10 @@
 scss
 sass
 */
-header 
+header {
   /* Reseteo */
   /* Defino la unidad de medida general para todo mi proyecto*/
-
+}
 header * {
   margin: 0;
   padding: 0;
@@ -15,11 +15,11 @@ header html {
   font-size: 20px;
 }
 
-body 
+body {
   /* Configuro el body */
   /* Efectos Imagen */
   /* Fin Efectos Imagen */
-
+}
 body body {
   background-image: url(../image/fondo.png);
   background-repeat: no-repeat;
@@ -38,11 +38,19 @@ body img:hover {
 
 /* MOBILE */
 @media screen and (max-width: 468px) {
-  .body {
-    background-color: #e1f8b6;
+  .body .body {
+    background-color: black;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
-  .nosotros {
-    background-color: #e1f8b6;
+  .nosotros .body {
+    background-color: black;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .grid-container {
     margin: 0%;
@@ -64,11 +72,19 @@ body img:hover {
 }
 /* MOBILE */
 @media screen and (max-width: 472px) and (min-width: 469px) {
-  .body {
-    background-color: #e1f8b6;
+  .body .body {
+    background-color: black;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
-  .nosotros {
-    background-color: #e1f8b6;
+  .nosotros .body {
+    background-color: black;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .grid-container {
     margin: 0%;
@@ -90,11 +106,19 @@ body img:hover {
 }
 /* TABLET */
 @media screen and (min-width: 469px) and (max-width: 968px) {
-  .body {
-    background-color: #B2D6F9;
+  .body .body {
+    background-color: black;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
-  .nosotros {
-    background-color: #B2D6F9;
+  .nosotros .body {
+    background-color: black;
+    background-image: url(../image/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .p {
     font-size: 70%;
