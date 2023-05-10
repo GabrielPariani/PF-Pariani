@@ -1,8 +1,10 @@
+@import "../base/colores";
+
 /* MOBILE */
 @media screen and (max-width: 468px) {
     .body {
         .body {
-            background-color: black;
+            background-color: solid darken ($negro-principal);
             background-image: url(../image/fondo.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -11,7 +13,7 @@
     }
     .nosotros {
         .body {
-            background-color: black;
+            background-color: solid darken ($negro-principal);
             background-image: url(../image/fondo.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -40,7 +42,7 @@
 @media screen and (max-width: 472px) and (min-width: 469px){
     .body {
         .body {
-            background-color: black;
+            background-color: solid darken ($negro-principal);
             background-image: url(../image/fondo.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -49,7 +51,7 @@
     }
     .nosotros {
         .body {
-            background-color: black;
+            background-color: solid darken ($negro-principal);
             background-image: url(../image/fondo.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -79,7 +81,7 @@
 @media screen and (min-width: 469px) and (max-width: 968px) {
     .body {
         .body {
-            background-color: black;
+            background-color:solid darken ($negro-principal);
             background-image: url(../image/fondo.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -89,7 +91,7 @@
 
     .nosotros {
         .body {
-            background-color: black;
+            background-color: solid darken ($negro-principal);
             background-image: url(../image/fondo.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -111,7 +113,7 @@
 /* DESKTOP */
 @media screen and (min-width: 969px) {
     .body {
-        background-color: black;
+        background-color: solid darken ($negro-principal);
         background-image: url(../image/fondo.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -121,7 +123,7 @@
 /* DESKTOP */
 @media screen and (min-width: 729px) and (max-width:1440px){
     .body {
-        background-color: black;
+        background-color: solid darken ($negro-principal);
         background-image: url(../image/fondo.png);
         background-repeat: no-repeat;
         background-attachment: fixed;

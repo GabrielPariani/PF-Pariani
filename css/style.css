@@ -3,10 +3,10 @@
 scss
 sass
 */
-header {
+header 
   /* Reseteo */
   /* Defino la unidad de medida general para todo mi proyecto*/
-}
+
 header * {
   margin: 0;
   padding: 0;
@@ -15,11 +15,11 @@ header html {
   font-size: 20px;
 }
 
-body {
+body 
   /* Configuro el body */
   /* Efectos Imagen */
   /* Fin Efectos Imagen */
-}
+
 body body {
   background-image: url(../image/fondo.png);
   background-repeat: no-repeat;
@@ -36,17 +36,18 @@ body img:hover {
   transform: scale(1.2);
 }
 
+/* Colores marca principal */
 /* MOBILE */
 @media screen and (max-width: 468px) {
   .body .body {
-    background-color: black;
+    background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
   .nosotros .body {
-    background-color: black;
+    background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -73,14 +74,14 @@ body img:hover {
 /* MOBILE */
 @media screen and (max-width: 472px) and (min-width: 469px) {
   .body .body {
-    background-color: black;
+    background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
   .nosotros .body {
-    background-color: black;
+    background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -107,14 +108,14 @@ body img:hover {
 /* TABLET */
 @media screen and (min-width: 469px) and (max-width: 968px) {
   .body .body {
-    background-color: black;
+    background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
   .nosotros .body {
-    background-color: black;
+    background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -133,7 +134,7 @@ body img:hover {
 /* DESKTOP */
 @media screen and (min-width: 969px) {
   .body {
-    background-color: black;
+    background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -143,7 +144,7 @@ body img:hover {
 /* DESKTOP */
 @media screen and (min-width: 729px) and (max-width: 1440px) {
   .body {
-    background-color: black;
+    background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -249,7 +250,7 @@ footer {
   }
 }
 /* Fin pag Nosotros*/
-/* Pagina Salado */
+/* Pagina Salado */ /* Colores marca principal */
 #salado {
   background-color: black;
   background-image: url(../image/fondo.png);
@@ -265,20 +266,20 @@ footer {
 }
 
 .color-ul {
-  background-color: #B2D6F9;
+  background-color: solid darken #B2D6F9;
   opacity: 0.7;
   border-radius: 8px 8px 8px 8px;
 }
 
 .color-p {
-  background-color: #B2D6F9;
+  background-color: solid darken #B2D6F9;
   opacity: 0.7;
   border-radius: 8px 8px 8px 8px;
 }
 
 .h1,
 h3 {
-  background-color: #B2D6F9;
+  background-color: solid darken #B2D6F9;
   opacity: 0.7;
   text-decoration: underline;
   font-family: cursive;

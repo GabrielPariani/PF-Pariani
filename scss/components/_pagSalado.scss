@@ -1,5 +1,6 @@
 /* Pagina Salado */
 @import "../base/listas";
+@import "../base/colores";
 
 #salado{
     background-color: $bg-general;
@@ -14,18 +15,18 @@
    height: 50%;
 }
 .color-ul{
-    background-color:#B2D6F9;
+    background-color:solid darken ($celeste-principal);
     opacity: 00.7;
     border-radius: 8px 8px 8px 8px;
 }
 .color-p{
-    background-color: #B2D6F9;
+    background-color: solid darken ($celeste-principal);
     opacity: 00.7;
     border-radius: 8px 8px 8px 8px;
 }
 .h1,
 h3 {
-    background-color:#B2D6F9;
+    background-color: solid darken ($celeste-principal);
     opacity: 00.7;
     text-decoration: underline;
     font-family: cursive;
