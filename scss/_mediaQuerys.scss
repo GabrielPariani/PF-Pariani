@@ -1,10 +1,22 @@
 /* MOBILE */
 @media screen and (max-width: 468px) {
     .body {
-        background-color: #e1f8b6;
+        .body {
+            background-color: black;
+            background-image: url(../image/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
     }
     .nosotros {
-        background-color: #e1f8b6;
+        .body {
+            background-color: black;
+            background-image: url(../image/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
     }
     .grid-container {
         margin: 0%;
@@ -27,10 +39,22 @@
 /* MOBILE */
 @media screen and (max-width: 472px) and (min-width: 469px){
     .body {
-        background-color: #e1f8b6;
+        .body {
+            background-color: black;
+            background-image: url(../image/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
     }
     .nosotros {
-        background-color: #e1f8b6;
+        .body {
+            background-color: black;
+            background-image: url(../image/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
     }
     .grid-container {
         margin: 0%;
@@ -54,11 +78,23 @@
 /* TABLET */
 @media screen and (min-width: 469px) and (max-width: 968px) {
     .body {
-        background-color: #B2D6F9;
+        .body {
+            background-color: black;
+            background-image: url(../image/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
     }
 
     .nosotros {
-        background-color: #B2D6F9;
+        .body {
+            background-color: black;
+            background-image: url(../image/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
     }
     .p{
         font-size: 70%;
