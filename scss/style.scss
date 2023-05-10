@@ -6,13 +6,13 @@ sass
 
 @import "body";
 
-@import "mediaQuerys";
+@import "base/mediaQuerys";
 
-@import "index";
+@import "components/index";
 
-@import "footer";
+@import "components/footer";
 
-@import "redes";
+@import "components/redes";
 
 @import "pagNosotros";
 
