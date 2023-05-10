@@ -4,7 +4,7 @@ sass
 */
 @import "components/header";
 
-@import "body";
+@import "components/body";
 
 @import "base/mediaQuerys";
 
@@ -14,12 +14,12 @@ sass
 
 @import "components/redes";
 
-@import "pagNosotros";
+@import "components/pagNosotros";
 
-@import "pagSalado";
+@import "components/pagSalado";
 
-@import "pagDulce";
+@import "components/pagDulce";
 
-@import "pagContacto";
+@import "components/pagContacto";
 
-@import "pagParrilla";
+@import "components/pagParrilla";
