@@ -1,3 +1,5 @@
+@import "../base/colores";
+
 body {
 
     /* Configuro el body */
@@ -6,6 +8,7 @@ body {
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
+ background-color: solid darken ($negro-principal);
 }
 
 /* Efectos Imagen */
