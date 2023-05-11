@@ -113,7 +113,7 @@
 /* DESKTOP */
 @media screen and (min-width: 969px) {
     .body {
-        background-color: solid darken ($negro-principal);
+        background-color: black;
         background-image: url(../image/fondo.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -123,7 +123,7 @@
 /* DESKTOP */
 @media screen and (min-width: 729px) and (max-width:1440px){
     .body {
-        background-color: solid darken ($negro-principal);
+        background-color: black;
         background-image: url(../image/fondo.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
