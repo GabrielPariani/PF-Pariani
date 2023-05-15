@@ -3,10 +3,7 @@
 scss
 sass
 */
-header {
-  /* Reseteo */
-  /* Defino la unidad de medida general para todo mi proyecto*/
-}
+
 header * {
   margin: 0;
   padding: 0;
@@ -15,12 +12,12 @@ header html {
   font-size: 20px;
 }
 
-/* Colores marca principal */
-body {
+
+
   /* Configuro el body */
   /* Efectos Imagen */
   /* Fin Efectos Imagen */
-}
+
 body body {
   background-image: url(../image/fondo.png);
   background-repeat: no-repeat;
