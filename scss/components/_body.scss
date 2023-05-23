@@ -1,6 +1,18 @@
-@import "../base/colores";
+@import "../base/variables";
 
-body {
+   
+    /* Reseteo */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* Defino la unidad de medida general para todo mi proyecto*/
+html {
+    font-size: 20px;
+}
+
+
+
 
     /* Configuro el body */
 body {
@@ -23,4 +35,3 @@ img:hover{
 }
 /* Fin Efectos Imagen */
 
-}

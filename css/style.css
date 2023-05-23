@@ -3,41 +3,49 @@
 scss
 sass
 */
-
-header * {
+/* Colores marca principal */
+/* Fin Colores marca principal */
+/* Listas */
+/* FIn Listas */
+/* Reseteo */
+* {
   margin: 0;
   padding: 0;
 }
-header html {
+
+/* Defino la unidad de medida general para todo mi proyecto*/
+html {
   font-size: 20px;
 }
 
-
-
-  /* Configuro el body */
-  /* Efectos Imagen */
-  /* Fin Efectos Imagen */
-
-body body {
+/* Configuro el body */
+body {
   background-image: url(../image/fondo.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: solid darken #000000;
 }
-body img {
+
+/* Efectos Imagen */
+img {
   width: 100%;
   height: 100%;
   transition: 0.5s;
   object-fit: cover;
 }
-body img:hover {
+
+img:hover {
   transform: scale(1.2);
 }
 
+/* Fin Efectos Imagen */
 /* Colores marca principal */
+/* Fin Colores marca principal */
+/* Listas */
+/* FIn Listas */
 /* MOBILE */
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 468px) and (min-width: 390px) {
   .body .body {
     background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
@@ -50,28 +58,16 @@ body img:hover {
     background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-  }
-  .grid-container {
-    margin: 0%;
-    display: grid;
-    grid-template-rows: repeat(1, 10px);
-    grid-template-columns: repeat(1, 0.5fr);
-    filter: drop-shadow(8px 8px 4px #B2D6F9);
-    border-top: 60%;
-  }
-  .grid-item {
-    width: 100%;
-    height: 20%;
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
   .p {
-    font-size: 50%;
+    font-size: 60%;
   }
 }
 /* MOBILE */
-@media screen and (max-width: 472px) and (min-width: 469px) {
+@media screen and (max-width: 730px) and (min-width: 490px) {
   .body .body {
     background-color: solid darken #000000;
     background-image: url(../image/fondo.png);
@@ -86,22 +82,8 @@ body img:hover {
     background-attachment: fixed;
     background-size: cover;
   }
-  .grid-container {
-    margin: 0%;
-    display: grid;
-    grid-template-rows: repeat(1, 10px);
-    grid-template-columns: repeat(1, 0.5fr);
-    filter: drop-shadow(8px 8px 4px #B2D6F9);
-    border-top: 60%;
-  }
-  .grid-item {
-    width: 100%;
-    height: 20%;
-    flex-direction: column;
-    align-items: center;
-  }
   .p {
-    font-size: 40%;
+    font-size: 50%;
   }
 }
 /* TABLET */
@@ -122,12 +104,6 @@ body img:hover {
   }
   .p {
     font-size: 70%;
-  }
-  .grid-item {
-    width: 100%;
-    height: 50%;
-    flex-direction: column;
-    align-items: center;
   }
 }
 /* DESKTOP */
@@ -151,6 +127,16 @@ body img:hover {
   }
   .p {
     font-size: 95%;
+  }
+}
+@media screen and (max-width: 936px) and (min-width: 730px) {
+  .p {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 388px) and (min-width: 220px) {
+  .p {
+    font-size: 50%;
   }
 }
 /* Pagina index*/
@@ -200,7 +186,10 @@ footer {
 }
 
 /* Fin Redes */
-/* Pagina Nosotros*/
+/* Pagina Nosotros*/ /* Colores marca principal */
+/* Fin Colores marca principal */
+/* Listas */
+/* FIn Listas */
 #nosotros {
   background-color: black;
   background-image: url(../image/fondo.png);
@@ -250,6 +239,9 @@ footer {
 }
 /* Fin pag Nosotros*/
 /* Pagina Salado */ /* Colores marca principal */
+/* Fin Colores marca principal */
+/* Listas */
+/* FIn Listas */
 #salado {
   background-color: black;
   background-image: url(../image/fondo.png);
@@ -364,7 +356,10 @@ h3 {
 }
 
 /* Fin Pag. Contacto*/
-/* Pag. Parrilla */
+/* Pag. Parrilla */ /* Colores marca principal */
+/* Fin Colores marca principal */
+/* Listas */
+/* FIn Listas */
 #parrilla {
   background-color: black;
   background-image: url(../image/fondo.png);
