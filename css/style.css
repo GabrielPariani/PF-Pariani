@@ -266,6 +266,7 @@ footer {
   background-color: #B2D6F9;
   opacity: 0.7;
   border-radius: 8px 8px 8px 8px;
+  font-size: 50px;
 }
 
 .h1,
@@ -275,6 +276,11 @@ h3 {
   text-decoration: underline;
   font-family: cursive;
   border-radius: 10px 10px 10px 10px;
+}
+
+.width {
+  width: 60%;
+  height: 50%;
 }
 
 .recetas-saladas {
@@ -289,6 +295,15 @@ h3 {
 
 .underline {
   text-decoration: underline;
+  font-size: 50px;
+}
+
+.parrafo {
+  font-size: 45px;
+}
+
+.listas {
+  font-size: 50px;
 }
 
 /* Fin Pagina Salado */
