@@ -98,6 +98,11 @@ img:hover {
     width: 50%;
   }
 }
+@media screen and (max-width: 497px) and (min-width: 471px) {
+  .p {
+    font-size: 65%;
+  }
+}
 @media screen and (max-width: 674px) and (min-width: 566px) {
   .p {
     font-size: 75%;
