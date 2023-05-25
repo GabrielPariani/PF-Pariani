@@ -25,11 +25,11 @@
         }
      
     }
-   
-   
+    
     .p{
         font-size: 60%;
     }   
+    
 }
 /* MOBILE */
 @media screen and (max-width: 730px) and (min-width: 490px){
@@ -50,9 +50,9 @@
             background-attachment: fixed;
             background-size: cover;
         }
+        
     }
   
-   
     .p{
         font-size: 50%;
     }   
@@ -79,11 +79,11 @@
             background-attachment: fixed;
             background-size: cover;
         }
-    }
+
     .p{
         font-size: 70%;
     }
-   
+}
 }
 
 /* DESKTOP */

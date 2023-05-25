@@ -102,7 +102,7 @@ img:hover {
     background-attachment: fixed;
     background-size: cover;
   }
-  .p {
+  .nosotros .p {
     font-size: 70%;
   }
 }
@@ -173,16 +173,24 @@ footer {
 
 /* Fin Footer */
 /* Redes */
+.redes1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .redes {
-  width: 30%;
-  height: 30%;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-around;
-  margin: 3%;
+  align-items: center;
+  margin: 10% auto 10%;
 }
 
 .tamaño {
-  width: 35%;
+  width: 40%;
 }
 
 /* Fin Redes */
