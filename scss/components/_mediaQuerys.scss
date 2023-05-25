@@ -56,12 +56,22 @@
     .p{
         font-size: 50%;
     }   
-   
 }
+
+
 
 @media screen and (max-width: 725px) and (min-width: 490px){
 .p{
     font-size: 80%;
+}
+.redes1 {
+     .redes {
+        width: 70%;
+    height: 70%;
+     }
+     .tamaño {
+        width: 50%;
+     } 
 }
 }
 @media screen and (max-width: 674px) and (min-width: 566px){

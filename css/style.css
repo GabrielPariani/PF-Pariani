@@ -90,6 +90,13 @@ img:hover {
   .p {
     font-size: 80%;
   }
+  .redes1 .redes {
+    width: 70%;
+    height: 70%;
+  }
+  .redes1 .tamaño {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 674px) and (min-width: 566px) {
   .p {
