@@ -65,6 +65,13 @@ img:hover {
   .p {
     font-size: 60%;
   }
+  .redes1 .redes {
+    width: 70%;
+    height: 70%;
+  }
+  .redes1 .tamaño {
+    width: 50%;
+  }
 }
 /* MOBILE */
 @media screen and (max-width: 730px) and (min-width: 490px) {
@@ -102,10 +109,24 @@ img:hover {
   .p {
     font-size: 65%;
   }
+  .redes1 .redes {
+    width: 70%;
+    height: 70%;
+  }
+  .redes1 .tamaño {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 674px) and (min-width: 566px) {
   .p {
     font-size: 75%;
+  }
+  .redes1 .redes {
+    width: 70%;
+    height: 70%;
+  }
+  .redes1 .tamaño {
+    width: 50%;
   }
 }
 @media screen and (max-width: 565px) and (min-width: 500px) {
@@ -154,6 +175,13 @@ img:hover {
   }
   .p {
     font-size: 95%;
+  }
+  .redes1 .redes {
+    width: 70%;
+    height: 70%;
+  }
+  .redes1 .tamaño {
+    width: 50%;
   }
 }
 @media screen and (max-width: 936px) and (min-width: 730px) {
